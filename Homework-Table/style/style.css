@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    transition: all 0.5s ease;
+}
+
+body{
+    background: #F4FFF9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500; /* or regular*/
+    font-style: normal;
+    line-height: 24px;
+    color: #1E2022;
+    margin: 0;
+}
+
+h1, p{
+    text-align: center;
+}
+.formain{
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px #b2d2c1;
+    padding: 20px;
+}
+
+.formain2{
+    width: 1200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px #b2d2c1;
+    padding: 20px;
+}
+
+.main{
+    border-spacing: 40px;
+}
+
+#stats, #about{
+    width: 100%;
+}
+
+#stats td, #about td{
+    border-bottom-style: double;
+    border-bottom: 1px double #C4C4C4;
+}
+
+#stats p{
+    text-align: left;
+}
+
+.topic{
+    font-size: 32px;
+}
+
+span{
+    color: #91BFA6;
+}
+
+#logo{
+    border-radius: 90%;
+    background-color: #fff;
+    width: 150px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+#logo:hover{
+    background-color: rgb(26, 134, 223);
+}
+
+h1{
+    font-size: 46px;
+    font-weight: 700;
+    color: #000;
+}
+
+h1:hover, span:hover {
+    color: #4E75B4;
+}
+
+p:hover{
+    color: #4E75B4;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #4E75B4;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    text-align: left;
+}
+
+.contact{
+    display: block;
+    color: #fff;
+    background-color: #82C5A0;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    width: 210px;
+    font-weight: bold;
+    box-shadow: 0px 0px 25px #b2d2c1;
+}
